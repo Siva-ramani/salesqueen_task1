@@ -280,11 +280,15 @@ table{
 }
 }
 @media(max-width:477px){
+
 	#interface .navigation{
 		padding: 15px;
 	}
 	#interface .navigation .search input{
 		width: 150px;
+	}
+	#menu.active~#interface{
+		overflow-x: hidden;
 	}
 	.i-name{
 		padding:30px 15px 0 15px;
@@ -300,4 +304,5 @@ table{
 	.board{
 		margin: 30px 15px 30px 15px;
 	}
+
 }
